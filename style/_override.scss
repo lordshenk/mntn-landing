@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    position: relative;
+    background: #0b1d26;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+h1,
+p,
+button,
+input {
+    margin: 0;
+    padding: 0;
+}
+button {
+    outline: none;
+    border: none;
+}
+input {
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
